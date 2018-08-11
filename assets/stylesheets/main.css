@@ -3,6 +3,7 @@ nav {
 }
 
 .top-div {
+  text-align: center;
   color: #ffffff;
   background: url('../images/image_3.png');
   background-position: center;
@@ -10,9 +11,28 @@ nav {
   background-size: auto;
   width: auto;
   height: 1014px;
+  overflow: hidden;
+}
+
+.backs {
+  text-align: center;
+  color: #ffffff;
+  background: url('../images/johansen.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: auto;
+  height: 1014px;
+  overflow: hidden;
+}
+
+nav {
+  margin-top: 20px;
 }
 
 .navbar-el{
+  text-decoration: none;
+  cursor: pointer;
   font-family: "Playfair Display";
   font-size: 12px;
   font-weight: normal;
@@ -22,6 +42,12 @@ nav {
   line-height: normal;
   letter-spacing: 2px;
   color: #ffffff;
+  margin-right: 40px;
+}
+
+.navbar-el:hover{
+  border-bottom: 1px solid red;
+
 }
 
 .clear-float {
@@ -29,18 +55,45 @@ nav {
 }
 
 
-.Johansen {
-  width: 971px;
-  height: 160px;
-  object-fit: contain;
-  opacity: 0.03;
-  font-family: "Playfair Display";
-  font-size: 120px;
+.header {
+  margin-top: 30%;
+}
+
+.Jacob-Johansen {
+ 
+  font-family: Futura;
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 22.5px;
+  text-align: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+.sub-header {
+  opacity: 0.7;
+  margin: 20px;
+  font-family: PlayfairDisplay;
+  font-size: 20px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: 46.7px;
+  letter-spacing: 1px;
   text-align: center;
   color: #ffffff;
+}
+
+.bio-text {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.bio-section {
+  background-color: #1e1e1e;
+  color: white;
+ 
 }
