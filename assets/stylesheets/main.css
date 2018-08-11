@@ -8,9 +8,7 @@ nav {
   background: url('../images/image_3.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
-  width: auto;
-  height: 1014px;
+  background-size: 1420px 1014px;
   overflow: hidden;
   position: relative;
   object-fit: contain;
@@ -37,28 +35,27 @@ nav {
   overflow: hidden;
 }
 
-nav {
-  margin-top: 20px;
-}
-
 .navbar-el{
+	position: relative;
+	top: 52px;
+  margin-right: 80px;
   text-decoration: none;
   cursor: pointer;
   font-family: "Playfair Display";
   font-size: 12px;
   font-weight: normal;
   font-style: normal;
-  font-variant: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 2px;
   color: #ffffff;
-  margin-right: 40px;
+  text-transform: uppercase;
+  opacity: 0.6;
 }
 
 .navbar-el:hover{
+	padding-bottom: 10px;
   border-bottom: 1px solid red;
-
 }
 
 .clear-float {
@@ -71,7 +68,6 @@ nav {
 }
 
 .Jacob-Johansen {
- 
   font-family: Futura;
   font-size: 36px;
   font-weight: 500;
@@ -85,7 +81,7 @@ nav {
 }
 
 .sub-header {
-  opacity: 0.7;
+  opacity: 0.5;
   margin: 20px;
   font-family: "Playfair Display";
   font-size: 20px;
@@ -108,9 +104,7 @@ nav {
   color: white;
 }
 .bio {
-  /* width: 38px; */
-  /* height: 22px; */
-  font-family: FuturaPT;
+  font-family: arial;
   font-size: 17px;
   font-weight: normal;
   font-style: normal;
@@ -118,11 +112,12 @@ nav {
   line-height: normal;
   letter-spacing: 3.8px;
   color: #ffffff;
+  padding-top: 101px;
+  padding-bottom: 80px;
+  text-transform: uppercase;
 }
 .my-name {
-  /* width: 1022px; */
-  /* height: 82px; */
-  font-family: FuturaPT;
+  font-family: arial;
   font-size: 24px;
   font-weight: normal;
   font-style: normal;
@@ -137,14 +132,14 @@ nav {
   display: flex;
   flex-wrap: wrap;
   margin-top: 186px;
-  margin-right: 50px;
 }
 
 .bio-things div {
-  width: 500px;
+  margin-right: 147px;
+  width: 426px;
   border-left: 1px solid #ad0337;
   padding-left: 30px;
-  margin: 50px 10px;
+  margin-bottom:160px;
   text-align: justify;  
 }
 
@@ -153,22 +148,18 @@ nav {
 }
 
 .bio-title {
-  /* width: 141px; */
-  /* height: 32px; */
-  font-family: PlayfairDisplay;
+  font-family: arial;
   font-size: 24px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: normal;
+  letter-spacing: 1px;
   color: #ffffff;
 }
 .bio-presentation {
-  /* width: 426px; */
-  /* height: 52px; */
   opacity: 0.6;
-  font-family: FuturaPT;
+  font-family: arial;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
