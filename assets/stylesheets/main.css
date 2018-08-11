@@ -4,11 +4,12 @@ nav {
 
 .top-div {
   color: #ffffff;
-  background: url('../images/image_3@2x.png');
-  background-position: top center;
+  background: url('../images/image_3.png');
+  background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
-
+  background-size: auto;
+  width: auto;
+  height: 1014px;
 }
 
 .navbar-el{
@@ -25,4 +26,21 @@ nav {
 
 .clear-float {
   clear: both;
+}
+
+
+.Johansen {
+  width: 971px;
+  height: 160px;
+  object-fit: contain;
+  opacity: 0.03;
+  font-family: "Playfair Display";
+  font-size: 120px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 46.7px;
+  text-align: center;
+  color: #ffffff;
 }
