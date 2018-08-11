@@ -12,6 +12,17 @@ nav {
   width: auto;
   height: 1014px;
   overflow: hidden;
+  position: relative;
+  object-fit: contain;
+}
+
+.signature {
+  width: 290px;
+  height: 160px;
+  object-fit: contain;
+  position: absolute;
+  top:250px;
+  right: 565px;
 }
 
 .backs {
@@ -76,7 +87,7 @@ nav {
 .sub-header {
   opacity: 0.7;
   margin: 20px;
-  font-family: PlayfairDisplay;
+  font-family: "Playfair Display";
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -89,11 +100,64 @@ nav {
 
 .bio-text {
     width: 90%;
-    margin-left: 5%;
+    margin-left: 125px;
 }
 
 .bio-section {
   background-color: #1e1e1e;
   color: white;
- 
+}
+.bio {
+  width: 38px;
+  height: 22px;
+  font-family: FuturaPT;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3.8px;
+  color: #ffffff;
+}
+.my-name {
+  width: 1022px;
+  height: 82px;
+  font-family: FuturaPT;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-top: 80 px;
+}
+.bio-things{
+	display: inline-block;
+	width:40%;
+}
+.bio-title {
+  width: 141px;
+  height: 32px;
+  font-family: PlayfairDisplay;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.bio-presentation {
+  width: 426px;
+  height: 52px;
+  opacity: 0.6;
+  font-family: FuturaPT;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.5px;
+  color: #ffffff;
 }
