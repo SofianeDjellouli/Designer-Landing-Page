@@ -108,8 +108,8 @@ nav {
   color: white;
 }
 .bio {
-  width: 38px;
-  height: 22px;
+  /* width: 38px; */
+  /* height: 22px; */
   font-family: FuturaPT;
   font-size: 17px;
   font-weight: normal;
@@ -120,8 +120,8 @@ nav {
   color: #ffffff;
 }
 .my-name {
-  width: 1022px;
-  height: 82px;
+  /* width: 1022px; */
+  /* height: 82px; */
   font-family: FuturaPT;
   font-size: 24px;
   font-weight: normal;
@@ -133,12 +133,28 @@ nav {
   margin-top: 80 px;
 }
 .bio-things{
-	display: inline-block;
-	width:40%;
+  align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 186px;
+  margin-right: 50px;
 }
+
+.bio-things div {
+  width: 500px;
+  border-left: 1px solid #ad0337;
+  padding-left: 30px;
+  margin: 50px 10px;
+  text-align: justify;  
+}
+
+.bio-things div h3 {
+  margin-bottom: 18px;
+}
+
 .bio-title {
-  width: 141px;
-  height: 32px;
+  /* width: 141px; */
+  /* height: 32px; */
   font-family: PlayfairDisplay;
   font-size: 24px;
   font-weight: bold;
@@ -149,8 +165,8 @@ nav {
   color: #ffffff;
 }
 .bio-presentation {
-  width: 426px;
-  height: 52px;
+  /* width: 426px; */
+  /* height: 52px; */
   opacity: 0.6;
   font-family: FuturaPT;
   font-size: 16px;
