@@ -227,11 +227,10 @@ h2 {
 }
 
 .img-row {
-  width: 570px;
-  height: 400px;
+  width: 50%;
+  height: auto;
   object-fit: contain;
   box-shadow: 0 5px 50px rgba(0, 0, 0, 0.25);
-  
 }
 
 .case-study-section {
@@ -415,4 +414,57 @@ background-color: #1e1e1e;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  margin-bottom: 40px;
+  
+}
+
+.center p {
+  font-family: FuturaPT;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1e1e1e;
+}
+
+
+
+.project {
+  width: 30%;
+  height: 50px;
+  background-color: #1e1e1e;
+  box-shadow: 0 64px 64px 0 rgba(203, 219, 235, 0.3), 0 32px 32px 0 rgba(203, 219, 235, 0.3), 0 16px 16px 0 rgba(203, 219, 235, 0.3), 0 8px 8px 0 rgba(203, 219, 235, 0.3), 0 4px 4px 0 rgba(203, 219, 235, 0.2), 0 2px 2px 0 rgba(203, 219, 235, 0.3);
+}
+
+.business {
+  width: 30%;
+  height: 50px;
+  background-color: #ffffff;
+  box-shadow: 0 64px 64px 0 rgba(203, 219, 235, 0.2), 0 32px 32px 0 rgba(203, 219, 235, 0.2), 0 16px 16px 0 rgba(203, 219, 235, 0.2), 0 8px 8px 0 rgba(203, 219, 235, 0.2), 0 4px 4px 0 rgba(203, 219, 235, 0.2), 0 2px 2px 0 rgba(203, 219, 235, 0.2);
+}
+
+.btns {
+  margin-bottom: 84px;
+  margin-top: 30px;
+}
+
+p>a {
+  text-decoration: none;
+  color: #ad0337; 
+  
+}
+
+.subscribe {
+  height: 408px;
+  background-color: #1e1e1e;
+}
+
+.subscribe>div {
+  padding-top: 50px;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
 }
