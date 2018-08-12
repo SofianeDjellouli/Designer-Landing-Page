@@ -129,8 +129,9 @@ h2 {
   line-height: 1.5;
   letter-spacing: normal;
   color: #ffffff;
-  margin-top: 80 px;
+  margin-top: 80px;
 }
+
 .bio-things{
   align-content: space-between;
   display: flex;
@@ -385,8 +386,7 @@ h2 {
   letter-spacing: 0.5px;
   text-align: center;
   color: #ad0337;
-  color: --raspberry);
-  margin-top: 10px
+  margin-top: 10px;
 }
 
 #dots{
@@ -474,7 +474,7 @@ p>a {
 }
 
 #footer-text {
-	font-family: 'PT Sans'PT-Book;
+	font-family: 'PT Sans';
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
