@@ -230,3 +230,97 @@ h2 {
   color: #1e1e1e;
   color: var(--black);
 }
+
+.img-row {
+  width: 570px;
+  height: 400px;
+  object-fit: contain;
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.25);
+  
+}
+
+.case-study-section {
+  margin-left: 135px;
+  margin-right: 135px;
+ 
+  
+}
+
+.image-description {
+  display: inline-block;
+  width: 300px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.image-description h4 {
+  width: 268px;
+  height: 43px;
+  font-family: PlayfairDisplay;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1e1e1e;
+  color: var(--black);
+}
+
+.image-description p {
+
+  width: 364px;
+  height: 128px;
+  opacity: 0.4;
+  font-family: FuturaPT;
+  text-align: justify;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #1e1e1e;
+  color: var(--black);
+}
+
+
+.image-description-2 {
+  display: inline-block;
+  width: 300px;
+  margin-right: 100px;
+ 
+  margin-bottom: 100px;
+}
+
+.image-description-2 p {
+
+  
+  height: 128px;
+  opacity: 0.4;
+  font-family: FuturaPT;
+  text-align: right;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #1e1e1e;
+  color: var(--black);
+}
+
+.image-description-2 h4 {
+  
+  height: 43px;
+  font-family: PlayfairDisplay;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: right;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1e1e1e;
+  color: var(--black);
+}
