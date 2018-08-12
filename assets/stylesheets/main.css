@@ -122,7 +122,7 @@ h2 {
 }
 .my-name {
   font-family: arial;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -154,13 +154,14 @@ h2 {
 .bio-title {
   font-family: arial;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 1px;
   color: #ffffff;
 }
+
 .bio-presentation {
   opacity: 0.6;
   font-family: arial;
@@ -181,6 +182,9 @@ h2 {
   display: flex;
   flex-direction: row;
   padding-left: 50px;
+  width:1080px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .services{
@@ -193,14 +197,14 @@ h2 {
   padding-top: 40px;
   font-family: arial;
   font-size: 22px;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
   color: #1e1e1e;
-  color: var(--black);
+  
   opacity: 0.5;
 }
 .services-images{
@@ -212,6 +216,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
+
 #before {
   opacity: 0.5;
   font-family: arial;
@@ -219,54 +224,57 @@ h2 {
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
-  line-height: 0.88;
+  line-height: 1.5;
   letter-spacing: normal;
-  text-align: center;
+  text-align: justify;
   color: #1e1e1e;
-  color: var(--black);
 }
 
 .img-row {
   width: 45%;
   height: auto;
   object-fit: contain;
-  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.25);
-}
+  box-shadow: 0 67px 123px -78px rgba(0,0,0, 0.3);
+ }
 
 #no-shadow {
   width: 45%;
   height: auto;
   object-fit: contain;
-
 }
 
 .case-study-section {
   margin-left: 135px;
   margin-right: 135px;
- 
-  
 }
 
 .image-description {
-
   width: 35%;
   margin: auto;
-
 }
 
 .image-description h4 {
   margin-bottom: 20px;
   font-family: arial;
   font-size: 32px;
-  font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #1e1e1e;
-  color: var(--black);
 }
-
+.image-description-2 h4 {
+  
+  margin-bottom: 20px;
+  font-family: arial;
+  font-size: 32px;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: right;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1e1e1e;
+}
 .image-description p {
 
   margin-bottom: 20px;
@@ -280,62 +288,30 @@ h2 {
   line-height: 1.88;
   letter-spacing: normal;
   color: #1e1e1e;
-  color: var(--black);
 }
 
 
-.image-description-2 {
-  width: 35%;
-  margin: auto;
-
-}
-
-.image-description-2 p {
-
-  margin-bottom: 20px;
-  opacity: 0.4;
-  font-family: 'PT Sans';
+.image-description > p > a {
   text-align: right;
-  font-size: 17px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.88;
-  letter-spacing: normal;
-  color: #1e1e1e;
-  color: var(--black);
+  color: #000;
+  opacity: 1;
 }
 
-.image-description-2 h4 {
-  
-  margin-bottom: 20px;
-  font-family: arial;
-  font-size: 32px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
+#second-link{
   text-align: right;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #1e1e1e;
-  color: var(--black);
+  color: #000;
+  opacity: 1;
+  cursor: pointer;
+  font-size: 16px;
 }
-
-
-.image-description-2 > p > a {
-text-align: right;
-color: #000;
-opacity: 1;
-}
-
 .projects{
-	margin-bottom: 100px;
-	margin-top: 100px;
+  margin-bottom: 100px;
+  margin-top:-110px;
   width: 220px;
   height: 50px;
   background-color: #ffffff;
   box-shadow: 0 64px 64px 0 rgba(203, 219, 235, 0.2), 0 32px 32px 0 rgba(203, 219, 235, 0.2), 0 16px 16px 0 rgba(203, 219, 235, 0.2), 0 8px 8px 0 rgba(203, 219, 235, 0.2), 0 4px 4px 0 rgba(203, 219, 235, 0.2), 0 2px 2px 0 rgba(203, 219, 235, 0.2);
-font-family: arial;
+  font-family: arial;
   font-size: 12px;
   font-weight: 500;
   font-style: normal;
@@ -344,18 +320,18 @@ font-family: arial;
   letter-spacing: 2.7px;
   text-align: center;
   color: #1e1e1e;
-  color: var(--black);
   border: none;
   display: block;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
 }
 .experience {
-background-color: #1e1e1e;
+  background-color: #1e1e1e;
 }
 .presentation {
-	font-family: 'PT Sans';
-	font-size: 24px;
+  font-family: 'PT Sans';
+  font-size: 24px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -371,7 +347,7 @@ background-color: #1e1e1e;
 #world{
   width: 799px;
   display: block;
-    margin-left: auto;
+  margin-left: auto;
     margin-right: auto;
 }
 
@@ -409,7 +385,7 @@ background-color: #1e1e1e;
   letter-spacing: 0.5px;
   text-align: center;
   color: #ad0337;
-  color: var(--raspberry);
+  color: --raspberry);
   margin-top: 10px
 }
 
@@ -486,7 +462,7 @@ p>a {
 #footer-title {
   font-family: arial;
   font-size: 22px;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -494,8 +470,7 @@ p>a {
   text-align: center;
   color: #ffffff;
   padding-bottom: 4px;
-    padding-top: 50px;
-
+  padding-top: 50px;
 }
 
 #footer-text {
@@ -524,28 +499,35 @@ input {
   line-height: 2.25;
   letter-spacing: normal;
   color: #ffffff;
+  padding: 2px 10px;
+  border: none;
+  box-sizing: border-box;
 }
 .button_white_small {
   width: 170px;
   height: 41px;
   background-color: #ffffff;
   margin-left: 30px;
+  border:none;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
 
 .social-media{
-	padding-top: 79px;
-	padding-bottom: 50px;
-	display: flex;
-	margin-left: auto;
+  padding-top: 79px;
+  padding-bottom: 50px;
+  display: flex;
+  margin-left: auto;
   margin-right: auto;
-  width:141px;
+  width:300px;
 
 }
 
 .social-media i{
-	color:white;
-	margin: 10px;
-	font-size:24px;
+  color:white;
+  margin: auto;
+  font-size:24px;
+  cursor: pointer;
 }
 
 #last{
