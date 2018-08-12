@@ -14,13 +14,13 @@ nav {
   object-fit: contain;
 }
 
-.signature {
+#signature {
   width: 290px;
   height: 160px;
-  object-fit: contain;
-  position: absolute;
-  top:250px;
-  right: 565px;
+  margin-top:213px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .backs {
@@ -36,12 +36,12 @@ nav {
 }
 
 .navbar-el{
-	position: relative;
-	top: 52px;
+  position: relative;
+  top: 52px;
   margin-right: 80px;
   text-decoration: none;
   cursor: pointer;
-  font-family: "Playfair Display";
+  font-family: arial;
   font-size: 12px;
   font-weight: normal;
   font-style: normal;
@@ -54,7 +54,7 @@ nav {
 }
 
 .navbar-el:hover{
-	padding-bottom: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid red;
 }
 
@@ -63,12 +63,12 @@ nav {
 }
 
 
-.header {
-  margin-top: 30%;
+#header {
+  margin-top: 50px;
 }
 
-.Jacob-Johansen {
-  font-family: Futura;
+#Jacob-Johansen {
+  font-family: 'PT Sans';
   font-size: 36px;
   font-weight: 500;
   font-style: normal;
@@ -80,10 +80,10 @@ nav {
   text-align: center;
 }
 
-.sub-header {
+#sub-header {
   opacity: 0.5;
   margin: 20px;
-  font-family: "Playfair Display";
+  font-family: arial;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -95,8 +95,8 @@ nav {
 }
 
 .bio-text {
-    width: 90%;
-    margin-left: 125px;
+  width: 90%;
+  margin-left: 125px;
 }
 
 .bio-section {
@@ -115,9 +115,10 @@ h2 {
   padding-bottom: 80px;
   text-transform: uppercase;
   padding-left: 135px;
+  position: static;
 }
 .bio-section h2{
-	color: #ffffff;
+  color: #ffffff;
 }
 .my-name {
   font-family: arial;
@@ -173,14 +174,13 @@ h2 {
 }
 
 .services-section h2{
-
-	padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 .services-display{
   align-content: space-between;
   display: flex;
   flex-direction: row;
-	padding-left: 50px;
+  padding-left: 50px;
 }
 
 .services{
@@ -191,7 +191,7 @@ h2 {
 .services h3{
   padding-bottom: 40px;
   padding-top: 40px;
-  font-family: "Playfair Display";
+  font-family: arial;
   font-size: 22px;
   font-weight: bold;
   font-style: normal;
@@ -249,7 +249,7 @@ h2 {
 .image-description h4 {
   width: 268px;
   height: 43px;
-  font-family: "Playfair Display";
+  font-family: arial;
   font-size: 32px;
   font-weight: bold;
   font-style: normal;
@@ -265,7 +265,7 @@ h2 {
   width: 364px;
   height: 128px;
   opacity: 0.4;
-  font-family: FuturaPT;
+  font-family: 'PT Sans';
   text-align: justify;
   font-size: 17px;
   font-weight: normal;
@@ -291,7 +291,7 @@ h2 {
   
   height: 128px;
   opacity: 0.4;
-  font-family: FuturaPT;
+  font-family: 'PT Sans';
   text-align: right;
   font-size: 17px;
   font-weight: normal;
@@ -306,7 +306,7 @@ h2 {
 .image-description-2 h4 {
   
   height: 43px;
-  font-family: "Playfair Display";
+  font-family: arial;
   font-size: 32px;
   font-weight: bold;
   font-style: normal;
@@ -343,7 +343,7 @@ font-family: arial;
 background-color: #1e1e1e;
 }
 .presentation {
-	font-family: Futura;
+	font-family: 'PT Sans';
 	font-size: 24px;
   font-weight: normal;
   font-style: normal;
@@ -366,7 +366,7 @@ background-color: #1e1e1e;
 
 .recommandation{
   opacity: 0.8;
-  font-family: "Playfair Display";
+  font-family: arial;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -381,7 +381,7 @@ background-color: #1e1e1e;
 }
 
 #ceo{
-  font-family: Futura;
+  font-family: 'PT Sans';
   font-size: 15px;
   font-weight: 500;
   color: #ffffff;
@@ -389,7 +389,7 @@ background-color: #1e1e1e;
 }
 
 #strike {
-  font-family: Futura;
+  font-family: 'PT Sans';
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -413,13 +413,11 @@ background-color: #1e1e1e;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  margin-bottom: 40px;
-  
+  text-align: center; 
 }
 
 .center p {
-  font-family: FuturaPT;
+  font-family: 'PT Sans';
   font-size: 24px;
   font-weight: normal;
   font-style: normal;
@@ -458,13 +456,86 @@ p>a {
 }
 
 .subscribe {
-  height: 408px;
   background-color: #1e1e1e;
+  width: 100%
 }
 
-.subscribe>div {
-  padding-top: 50px;
+#footer-title {
+  font-family: arial;
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
   text-align: center;
-  width: 60%;
-  margin-left: 20%;
+  color: #ffffff;
+  padding-bottom: 4px;
+    padding-top: 50px;
+
+}
+
+#footer-text {
+	font-family: 'PT Sans'PT-Book;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+    opacity: 0.5;
+
+}
+input {
+  width: 370px;
+  height: 41px;
+  background-color: #2e2e2e;
+  opacity: 0.3;
+  font-family: 'PT Sans';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.button_white_small {
+  width: 170px;
+  height: 41px;
+  background-color: #ffffff;
+  margin-left: 30px;
+}
+
+.social-media{
+	padding-top: 79px;
+	padding-bottom: 50px;
+	display: flex;
+	margin-left: auto;
+  margin-right: auto;
+  width:141px;
+
+}
+
+.social-media i{
+	color:white;
+	margin: 10px;
+	font-size:24px;
+}
+
+#last{
+  background-color: #1e1e1e;
+
+  opacity: 0.3;
+  font-family: 'PT Sans';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
 }
