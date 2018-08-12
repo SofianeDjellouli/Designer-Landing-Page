@@ -103,7 +103,7 @@ nav {
   background-color: #1e1e1e;
   color: white;
 }
-.bio {
+h2 {
   font-family: arial;
   font-size: 17px;
   font-weight: normal;
@@ -111,10 +111,13 @@ nav {
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 3.8px;
-  color: #ffffff;
+  
   padding-top: 101px;
   padding-bottom: 80px;
   text-transform: uppercase;
+}
+.bio-section h2{
+	color: #ffffff;
 }
 .my-name {
   font-family: arial;
@@ -167,4 +170,63 @@ nav {
   line-height: 1.63;
   letter-spacing: 0.5px;
   color: #ffffff;
+}
+
+.services-section{
+	padding-left: 112px;
+}
+.services-section h2{
+	position: relative;
+	left:12px;
+	padding-bottom: 100px;
+}
+.services-display{
+  align-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin-bottom:160px;
+  padding-left: 50px;
+}
+
+.services{
+  width: 250px;
+  margin: 10px;
+  text-align: center;
+}
+.services h3{
+  padding-bottom: 40px;
+  padding-top: 40px;
+  font-family: "Playfair Display";
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1e1e1e;
+  color: var(--black);
+  opacity: 0.5;
+}
+.services-images{
+  width: 87px;
+  height: 87px;
+  object-fit: contain;
+  opacity: 0.5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#before {
+  opacity: 0.5;
+  font-family: arial;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1e1e1e;
+  color: var(--black);
 }
